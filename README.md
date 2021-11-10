@@ -1,2 +1,10 @@
 # scripthub-tingy
-script hub for roblos read README.md for more info
+script hub for roblos
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
