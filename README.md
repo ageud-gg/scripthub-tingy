@@ -1,6 +1,23 @@
 # scripthub-tingy
 script hub for roblos
 
+```lua
+--[[
+Hello thanks for using ig
+
+Supported games:
+Ninja legends
+Boxing simulator
+The legendary swords RPG
+Prison Life
+more will be coming soon!
+
+--ageud#2416]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/scripthub-tingy/main/funny.lua"))()```
+
+
+
 Supported games:
 
 Ninja legends (https://www.roblox.com/games/3956818381/Ninja-Legends)
