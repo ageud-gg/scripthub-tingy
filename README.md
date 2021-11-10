@@ -1,6 +1,7 @@
 # scripthub-tingy
 script hub for roblos
 
+Official loadstring:
 ```
 --[[
 Hello thanks for using ig
