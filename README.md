@@ -1,7 +1,7 @@
 # scripthub-tingy
 script hub for roblos
 
-```lua
+```
 --[[
 Hello thanks for using ig
 
@@ -14,7 +14,8 @@ more will be coming soon!
 
 --ageud#2416]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/scripthub-tingy/main/funny.lua"))()```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/scripthub-tingy/main/funny.lua"))()
+```
 
 
 
