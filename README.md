@@ -2,6 +2,7 @@
 script hub for roblos
 
 Supported games:
+
 Ninja legends (https://www.roblox.com/games/3956818381/Ninja-Legends)
 Boxing simulator (https://www.roblox.com/games/4058282580/FREE-PET-Boxing-Simulator)
 The legendary swords rpg (https://www.roblox.com/games/60654525/The-Legendary-Swords-RPG)
