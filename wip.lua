@@ -267,7 +267,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
 FPage.Button({
     Text = "FE nept v gui",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/reanim%20gui.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
     end,
     Menu = {
         Information = function(self)
@@ -281,7 +281,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-
 FPage.Button({
     Text = "FE spider script",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/spiderfe.lua"))()    end,
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe/fe%20spider"))()    end,
     Menu = {
         Information = function(self)
             UI.Banner({
@@ -294,7 +294,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-
 FPage.Button({
     Text = "FE neko animations script",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/neko-anmations.lua"))()   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe/neko%20animations"))()   
 end,
     Menu = {
         Information = function(self)
@@ -308,7 +308,7 @@ end,
 FPage.Button({
     Text = "FE flip script",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe%20flip"))()   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe/fe%20flip"))()   
 end,
     Menu = {
         Information = function(self)
@@ -322,7 +322,7 @@ end,
 FPage.Button({
     Text = "FE flip script",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe%20telekenssiu"))()   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/fe/fe%20telekenesis"))()   
 end,
     Menu = {
         Information = function(self)
