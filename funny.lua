@@ -494,6 +494,18 @@ end
     end
 end)
 	
+	--LocalPlayer
+local Player = Window:NewTab("Local Player")
+local PlayerSection = Player:NewSection("Local Player")
+
+PlayerSection:NewSlider("Walkspeed", "Changes local player's walkspeed", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("Jumppower", "Changes local player's Jumppower", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+	
 --creds
 
 local Tab = Window:NewTab("Credits")
