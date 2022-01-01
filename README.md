@@ -11,6 +11,7 @@ Ninja legends
 Boxing simulator
 The legendary swords RPG
 Prison Life
+Millionare Empire Tycoon
 more will be coming soon!
 
 --ageud#2416]]
@@ -29,6 +30,8 @@ Boxing simulator (https://www.roblox.com/games/4058282580/FREE-PET-Boxing-Simula
 The legendary swords rpg (https://www.roblox.com/games/60654525/The-Legendary-Swords-RPG)
 
 Prison life (https://www.roblox.com/games/155615604/Prison-Life-Cars-fixed)
+
+Millionare Empire Tycoon (https://www.roblox.com/games/6677985923/Millionaire-Empire-Tycoon)
 
 more coming soon
 
