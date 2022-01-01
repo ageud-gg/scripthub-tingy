@@ -493,4 +493,16 @@ wait()
 end
     end
 end)
+	
+--creds
+
+local Tab = Window:NewTab("Credits")
+
+local CreditsSection = Tab:NewSection("Credits")
+
+CreditsSection:NewLabel("Made by: ageud#2416")
+
+CreditsSection:NewKeybind("Toggle UI", "Toggle UI", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
 	end
