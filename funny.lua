@@ -421,3 +421,76 @@ end)
 
 end
 
+--millionare empire my ass
+
+if game.PlaceId == 6677985923 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Millionare empire my ass", "Ocean")
+
+local Tab = Window:NewTab("Main")
+
+local MSection = Tab:NewSection("Main")
+
+MSection:NewButton("Bring all crates (1 time)", "Brings all crates to rootpart", function()
+    for i,v in pairs(game:GetService("Workspace").CrateParent:GetDescendants()) do
+if v.Name == "CashCrate" then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end)
+
+MSection:NewToggle("Bring all crates (loop)", "Bring all crates on loop", function(state)
+    if state then
+getgenv().gift = true
+while getgenv().gift == true do
+wait()
+for i,v in pairs(game:GetService("Workspace").CrateParent:GetDescendants()) do
+if v.Name == "CashCrate" then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+wait()
+end
+    else
+getgenv().gift = false
+while getgenv().gift == true do
+wait()
+for i,v in pairs(game:GetService("Workspace").CrateParent:GetDescendants()) do
+if v.Name == "CashCrate" then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+wait()
+end
+    end
+end)
+
+MSection:NewToggle("Auto collect money", "Automatically collect money", function(state)
+    if state then
+getgenv().collect = true
+while getgenv().collect == true do
+local plr = game:GetService("Players").LocalPlayer
+local team = tostring(plr.Team)
+wait()
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.CanCollide = false
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.Transparency = 1
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.ParticleEmitter.Enabled = false
+wait()
+end
+    else
+getgenv().collect = false
+while getgenv().collect == true do
+local plr = game:GetService("Players").LocalPlayer
+local team = tostring(plr.Team)
+wait()
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.CanCollide = false
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.Transparency = 1
+game:GetService("Workspace")["Legend's 2P Tycoon Kit"].Tycoons[team]["P1 Stuff"].Essentials.TouchToCollect.Givers.Giver.ParticleEmitter.Enabled = false
+wait()
+end
+    end
+end)
+	end
