@@ -12,6 +12,7 @@ Boxing simulator
 The legendary swords RPG
 Prison Life
 Millionare Empire Tycoon
+Tapping simulator
 more will be coming soon!
 
 --ageud#2416]]
@@ -32,6 +33,8 @@ The legendary swords rpg (https://www.roblox.com/games/60654525/The-Legendary-Sw
 Prison life (https://www.roblox.com/games/155615604/Prison-Life-Cars-fixed)
 
 Millionare Empire Tycoon (https://www.roblox.com/games/6677985923/Millionaire-Empire-Tycoon)
+
+Tapping Simulator (https://www.roblox.com/games/9498006165/Tapping-Simulator)
 
 more coming soon
 
