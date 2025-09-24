@@ -1,4 +1,8 @@
 # scripthub-tingy
+
+### **Archived, no more updates. and this prob wont work in modern roblox**
+
+
 script hub for roblos
 
 Official loadstring:
